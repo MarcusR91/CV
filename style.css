@@ -89,6 +89,10 @@ p{
     color: #494336;
     font-weight: 500;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 .xp li{
     font-size: 1.1em;
     margin: 10px;
