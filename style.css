@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Hind', sans-serif;
+}
+/* Använder flexbox för att centrera arket på sidan */
+body{
+    background-color: #5f6361;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    background: #242225;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.4);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.container .leftSide{
+    position: relative;
+    background-color: #e0a817;
+    padding: 40px;
+}
+.container .rightSide{
+    position: relative;
+    background: #242225;
+
+}
+img{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+ .contact{
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    margin: 12px;
+    font-size: 1.5em;
+    padding:15px;
+    border-bottom: 1px solid black;
+ 
+}
+
+ul li{
+    list-style: none;
+    margin: 5px;  
+}
+i{
+    font-size: 1.3em;
+    margin: 5px;
+}
+h1{
+    margin: 50px 50px 0px 50px;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    color: #d6d6d6;
+}
+
+span{
+    color: #e0a817;
+}
+h3{
+    margin-left: 50px;
+    font-size: 1.5em;
+    color: #d6d6d6;
+    font-weight: 400;
+    border-bottom: 2px solid #d6d6d6;
+    padding-bottom: 15px;
+    width: 80%;
+    text-transform: uppercase;
+}
+p{
+    color: #d6d6d6;
+    margin: 0px 50px 50px 50px;
+    font-size: 1.2em;
+}
+.leftSide ul li i{
+    color: #fad884;
+}
+.leftSide ul li{
+    color: #494336;
+    font-weight: 500;
+}
+.xp li{
+    font-size: 1.1em;
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+}
+.about{
+    margin: 50px 50px 15px 50px;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: #e0a817;
+}
+
+.rightSide  ul li i{
+    color: #fad884;
+    font-size: 2em;
+
+}
+.rightSide  ul li{
+   color: #d6d6d6;
+   font-size: 1.5em;
+   width: 40%;
+   margin-right: 58px;
+   padding: 10px;
+}
+/* mina ikoner hamnar i centrum av texten */
+.rightSide ul li :nth-child(1) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+/* Items i UL blir hamnar bredvid */
+.rightSide ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.skills{
+    margin: 50px;
+    list-style: none;
+}
+.skills li {
+    font-size: 1.5em;
+    color: #d6d6d6;
+    padding: 5px;
+    text-decoration: none;
+}
