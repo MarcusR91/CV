@@ -140,3 +140,19 @@ a{
     padding: 5px;
     text-decoration: none;
 }
+#repos{
+    
+    /* margin: 50px 400px; */
+    list-style: none;
+
+}
+#repos li a{
+    display: flex;
+    /* justify-content: right; */
+    align-items: right;
+    flex-direction: column;
+    font-size: 1.5em;
+    color: #d6d6d6;
+    padding: 5px;
+    text-decoration: none;
+}
